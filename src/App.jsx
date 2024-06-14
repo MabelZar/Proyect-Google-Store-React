@@ -1,11 +1,10 @@
+import Header from "./NavBar/Header"
 
-import Header from './NavBar/Header'; // Importa el componente Header
+ 
 
 function App() {
   return (
-    <div >
         <Header></Header>
-    </div>
   );
 }
 
