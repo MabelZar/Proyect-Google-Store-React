@@ -1,10 +1,10 @@
-import FooterComponent from "./footer/component-footer.jsx";
-import Header from "./NavBar/header.jsx"
+import FooterComponent from "./components/footer/component-footer.jsx";
+import HeaderComponent from "./components/NavBar/Header-component.jsx"
 
 const App = () => {
   return (
     <>
-      <header></header>
+      <HeaderComponent></HeaderComponent>
       <FooterComponent></FooterComponent>
       </>
     )

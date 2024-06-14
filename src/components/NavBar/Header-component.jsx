@@ -1,7 +1,7 @@
-import "../NavBar/Header.css"
-import heaterImages from "../images-Header.js"
+import "./Header-component.css"
+import heaterImages from "../../images-Header.js"
 
-function Header() {
+function HeaderComponent() {
     return(
       <>
       <div className='barra-nav'>
@@ -29,4 +29,4 @@ function Header() {
       </>
     )
   }
-export default Header;
+export default HeaderComponent ;

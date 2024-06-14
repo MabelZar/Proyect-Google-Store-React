@@ -1,4 +1,4 @@
-import footerImages from "../utils/images-provider.js";
+import footerImages from "../../utils/images-provider.js";
 import '../footer/component-footer.css'
 
 function FooterComponent () {
