@@ -1,11 +1,13 @@
-import Header from "./NavBar/Header"
+import FooterComponent from "./footer/component-footer.jsx";
+import Header from "./NavBar/header.jsx"
 
- 
-
-function App() {
+const App = () => {
   return (
-        <Header></Header>
-  );
-}
+    <>
+      <header></header>
+      <FooterComponent></FooterComponent>
+      </>
+    )
+};
 
 export default App;

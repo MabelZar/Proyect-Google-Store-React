@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+.footer-content {
+    background: #f8f9fa;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    padding:5px 20px; 
+    font-family: "Inter", sans-serif;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding-left: 100px;
+}
+
+.social-media img {
+    margin-right: 5%; 
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-list li {
+    display: inline-block;
+    font-size: 8px;
+}
+
+.footer-list li a {
+    text-decoration: none;
+    color: #57626B; 
+    padding-right: 60px;
+}
+.second-content {
+    padding-left: 80px;
+}
+.Spain {
+    margin-left: 240px;
+}
+#pais_movil {
+    display: none;
+}
+
+@media only screen and (max-width:500px ) {
+.footer-content {
+ flex-direction: column;
+}
+.footer-list li {
+display: block;
+text-align: center;
+}
+
+#pais_movil {
+display: block;
+font-family: "Inter", sans-serif;
+font-size: 8px;
+color: #57626B
+}
+
+#pais_desktop {
+display: none;
+}
+
+#pais_movil img {
+margin-left: 5px;
+}
+
+#bandera_desktop {
+display: none;
+}
+.social-media img {
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+.footer-content {
+    padding-bottom: 10px;
+}
+}
