@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+.barra-nav {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 10px 20px;
+  border: 1px dotted #57626B;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+}
+
+.nav ul li {
+  display: inline;
+}
+
+.nav a {
+  padding: 5px;
+  color: #57626B;
+  text-decoration: none;
+}
+
+.nav a.nav {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.iconos-menu{
+display: flex; 
+
+  align-items: center;
+  margin-left: auto;
+}
+
+.icono{
+margin-right: 20px;
+font-size: 20px;
+}
+
+.google-logo {
+  margin-left: 10px;
+  width: 30px;
+  
+}
+
+#a_select {
+  color: #1a73e8;
+}
+
+#ham {
+width: 35px;
+height: 35px;
+/*  display: none;*/
+}
+
+@media only screen and (max-width:500px ) {
+.nav {
+  display: none;
+}
+#ham {
+  display: block;
+  }
+}
