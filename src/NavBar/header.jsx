@@ -1,5 +1,4 @@
-import './Header.css'
-
+import "../NavBar/Header.css"
 import heaterImages from "../images-Header.js"
 
 function Header() {
