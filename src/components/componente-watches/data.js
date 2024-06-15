@@ -1,4 +1,4 @@
-import ImagesWatches from "../../images-watches";
+import ImagesWatches from "../../utils/images-watches";
 
 const products=[
     {

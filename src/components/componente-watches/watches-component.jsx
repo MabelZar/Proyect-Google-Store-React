@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import "./watches-component.css"
-import ImagesWatches from "../../images-watches.js";
+import ImagesWatches from "../../utils/images-watches.js";
 import { products, getSmartwatch } from "./data.js";
 
 function WatchesComponent(){
