@@ -37,7 +37,7 @@ function WatchesComponent(){
                     <h2>{currentName}</h2>
                     <p>Health & Fitness Tracker</p>
                     <h3>€ {currentPrice}</h3>
-                    <hr/>
+                    <hr className="linea"/>
                     <p>Choose a color</p>
                     <div className="modeloColor">
                     
@@ -54,7 +54,7 @@ function WatchesComponent(){
                 </div>
                 
                 <div className="modeloCompra">
-                    <h2>{products.price}</h2>
+                    <h2>€ {currentPrice}</h2>
                     <hr/>
                     <div className="compraAñadir">
                         <select>

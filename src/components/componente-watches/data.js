@@ -3,14 +3,14 @@ import ImagesWatches from "../../images-watches";
 const products=[
     {
         id:"P01",
-        name:"Fitbit Inspire 3 Black",
+        name:"Midnight Zen",
         price: 99.95,
         category:"SMARTWATCH",
         image:ImagesWatches.smartwatch_black
     },
     {
         id:"P02",
-        name:"Fitbit Inspire 3 Pink",
+        name:"Lilac Bliss",
         price: 100.99,
         category:"SMARTWATCH",
         image:ImagesWatches.smartwatch_pink
@@ -18,7 +18,7 @@ const products=[
     },
     {
         id:"P03",
-        name:"Fitbit Inspire 3 Yellow",
+        name:"Morning Glow",
         price: 94.95,
         category:"SMARTWATCH",
         image:ImagesWatches.smartwatch_yelow
