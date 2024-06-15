@@ -1,18 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.barra-header{
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+}
 .barra-nav {
+  box-shadow:  0px 04px 6px  rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center; 
-  justify-content: space-between;
+  justify-content: flex-start;
   font-size: 12px;
-  padding: 10px 20px;
-  border: 1px dotted #57626B;
+  width: 100%;
 }
 
 .nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
-
   display: flex;
   align-items: center;
 }
@@ -34,8 +40,6 @@
 
 .iconos-menu{
 display: flex; 
-
-  align-items: center;
   margin-left: auto;
 }
 
@@ -47,7 +51,6 @@ font-size: 20px;
 .google-logo {
   margin-left: 10px;
   width: 30px;
-  
 }
 
 #a_select {
@@ -57,7 +60,7 @@ font-size: 20px;
 #ham {
 width: 35px;
 height: 35px;
-/*  display: none;*/
+ display: none;
 }
 
 @media only screen and (max-width:500px ) {
