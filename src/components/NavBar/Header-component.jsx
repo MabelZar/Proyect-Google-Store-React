@@ -1,11 +1,11 @@
 import "./Header-component.css"
-import heaterImages from "../../images-Header.js"
+import headerImages from "../../images-header.js";
 
 function HeaderComponent() {
     return(
       <>
       <div className='barra-nav'>
-          <img alt="Logo" src={heaterImages.logo} className='google-logo'/>
+          <img alt="Logo" src={headerImages.logo} className='google-logo'/>
           <nav className="nav">
               <ul>
                   <li><a href="#" className="menu">Phones</a></li>
@@ -18,12 +18,12 @@ function HeaderComponent() {
           </nav>
      
       <div className='iconos-menu'>
-          <img id="search" alt="Search" className='icono' src={heaterImages.search}/>
-          <img alt="Help" className='icono' src={heaterImages.help}/>
-          <img alt="Cart" className='icono' src={heaterImages.cart}/>
+          <img id="search" alt="Search" className='icono' src={headerImages.search}/>
+          <img alt="Help" className='icono' src={headerImages.help}/>
+          <img alt="Cart" className='icono' src={headerImages.cart}/>
          
-          <img alt="Avatar" className='icono' src={heaterImages.avatar}/>
-          <img alt="menu_ham" src={heaterImages.menu} className='icono' id="ham"/>
+          <img alt="Avatar" className='icono' src={headerImages.avatar}/>
+          <img alt="menu_ham" src={headerImages.menu} className='icono' id="ham"/>
       </div>
       </div>
       </>

@@ -6,7 +6,7 @@ import menu from '../src/images/icons/Menu.svg'
 import search from '../src/images/icons/Search.svg'
 import help from '../src/images/icons/Help.svg'
 
-const heaterImages ={
+const headerImages ={
    
     avatar,
     cart,
@@ -17,4 +17,4 @@ const heaterImages ={
     help,
 
 };
-export default heaterImages;
+export default headerImages;

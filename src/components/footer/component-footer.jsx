@@ -7,7 +7,7 @@ function FooterComponent () {
             <div className="footer-content">
                 <div className="social-media">
                     <img alt="X" src={footerImages.icX}/>
-                    <img  alt="Instagram" src={footerImages.icInstagram}/>
+                    <img alt="Instagram" src={footerImages.icInstagram}/>
                     <img alt="Facebook" src={footerImages.icFacebook}/>
                     <img alt="Youtube" src={footerImages.icYoutube}/>
                     <img alt="Tik Tok" src={footerImages.icTiktok}/>
