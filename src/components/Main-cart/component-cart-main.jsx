@@ -1,5 +1,5 @@
 import footerImages from "../../utils/images-provider";
-import "../cart/component-cart-main.css"
+import "./component-cart-main.css"
 
 
 const CartMain = () => {
@@ -13,7 +13,7 @@ const CartMain = () => {
             <div className="cart-content">
                 <div className="cart-items">
                     <div className="cart-item">
-                        <img className="item-image" alt="earbuds" src={footerImages.earbuds}/>
+                        <img className="item-image" alt="earbuds" src={footerImages.earbuds_01_celeste}/>
                         <div className="item-details">
                             <h2>Google Pixel Buds Pro in light blue</h2>
                             <p>Cant: <select className="selec-btn">

@@ -5,7 +5,7 @@ import icYoutube from '../images/icons/SM-youtube.svg';
 import icTiktok from '../images/icons/SM-tiktok.svg';
 import icSpain from '../images/icons/Spain.svg';
 import icDelivery from "../images/icons/Delivery.svg";
-import earbuds from "../images/Earbuds/earbuds_01.png";
+import earbuds_01_celeste from "../src/images/earbuds/caja/earbuds_01_celeste.png"
 import smartwatch from "../images/smartwatch/smartwatch_black.png";
 
 
@@ -17,7 +17,7 @@ const footerImages = {
     icTiktok,
     icSpain,
     icDelivery,
-    earbuds,
+    earbuds_01_celeste,
     smartwatch,
 };
 

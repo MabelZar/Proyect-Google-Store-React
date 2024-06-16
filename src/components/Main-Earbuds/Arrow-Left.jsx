@@ -1,5 +1,5 @@
 import "./main.css";
-import mainAllImages from "../images-main.js";
+import mainAllImages from "../../utils/images-main.js";
 
 //Componente 1
 

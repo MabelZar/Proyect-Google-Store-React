@@ -1,5 +1,5 @@
 import "./Header-component.css"
-import headerImages from "../../images-Header.js";
+import headerImages from "../../utils/images-Header.js"
 
 function HeaderComponent() {
     return(

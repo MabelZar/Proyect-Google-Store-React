@@ -1,8 +1,8 @@
 import FooterComponent from "./components/footer/component-footer.jsx";
-import HeaderComponent from "./components/NavBar/Header-component.jsx";
-import MainEarbuds From "./Componentes-Main-Earbuds/Main-Earbuds";
+import MainEarbuds from "./components/Main-Earbuds/Main-Earbuds.jsx";
+import HeaderComponent from "./components/Header/Header-component.jsx";
 
-const App = () => {
+const Earbuds = () => {
   return (
     <>
       <HeaderComponent></HeaderComponent>
@@ -12,4 +12,4 @@ const App = () => {
     )
 };
 
-export default App;
+export default Earbuds;
