@@ -22,6 +22,7 @@ function WatchesComponent(){
 
     return(
         <>
+        <div className='containerGeneralWatches'>
         <section className="back">
              <a><img src={ImagesWatches.arrow}/><p>See product details</p></a>
         </section>   
@@ -71,6 +72,7 @@ function WatchesComponent(){
                 </div>
             </div>
         </section>
+        </div>
         </>
     )
 }
