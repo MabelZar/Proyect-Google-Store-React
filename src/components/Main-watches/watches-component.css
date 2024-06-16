@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-/* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter', sans-serif;
-    color: #353A49;
- */   
+
 .containerGeneralWatches {
     flex: 1;
     padding-left: 15%;
@@ -36,16 +31,6 @@ hr {
     margin: 32px 0;
 }
 
-/* .linea {
-    margin: 0;
-    width: 100vw;
-    position: fixed;
-    left: 0;
-    right: 0;
-    background: linear-gradient(0deg, #353a4900 0%, #353a4967 100%);
-    height: 5px;
-    border:none;
-} */
 
 
 .back{
@@ -63,10 +48,6 @@ hr {
 .back p{
     margin-left: 20px;
 }
-
-
-
-
 
 
 .watchProducto{

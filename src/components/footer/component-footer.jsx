@@ -6,11 +6,21 @@ function FooterComponent () {
         <>
             <div className="footer-content">
                 <div className="social-media">
+                    <a href="https://x.com/madebygoogle">
                     <img alt="X" src={footerImages.icX}/>
+                    </a>
+                    <a href="https://www.instagram.com/madebygoogle/">
                     <img alt="Instagram" src={footerImages.icInstagram}/>
+                    </a>
+                    <a href="https://www.facebook.com/madebygoogle">
                     <img alt="Facebook" src={footerImages.icFacebook}/>
+                    </a>
+                    <a href="https://www.youtube.com/madebygoogle">
                     <img alt="Youtube" src={footerImages.icYoutube}/>
+                    </a>
+                    <a href="https://www.tiktok.com/@googlepixel">
                     <img alt="Tik Tok" src={footerImages.icTiktok}/>
+                    </a>
                 </div>
                 <div className="flag-box">
                 <img alt="Spain" src={footerImages.icSpain} className="Spain" id="bandera_desktop"/>
