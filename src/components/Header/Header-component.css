@@ -38,9 +38,12 @@
   margin-left: 20px;
 }
 
+
 .iconos-menu{
 display: flex; 
   margin-left: auto;
+  cursor: pointer;
+  color: #1a73e8;
 }
 
 .icono{

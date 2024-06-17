@@ -3,16 +3,19 @@
 
 .containerGeneralWatches {
     flex: 1;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 13%;
+    padding-right: 13%;
 }
 
 body {
     margin: 0 auto;
     overflow-x: hidden;
-    
 }
 
+.containerArrow {
+    padding-bottom: 2%;
+    color: #57626B;
+}
 
 h2{
     font-size: 35px;
@@ -66,6 +69,7 @@ hr {
     justify-content: center;
     align-items: center;
     transition: 0.2s;
+    border-radius: 10px;
 }
 .imagenProducto img {
     width: 361px;
@@ -115,8 +119,7 @@ hr {
     border-radius: 10px;
     width: 80%;
     padding: 29px 24px;
-    transition: 0.2s
-        
+    transition: 0.2s;  
 }
 .compraAñadir{
     display: flex;

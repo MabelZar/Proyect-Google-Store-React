@@ -23,10 +23,11 @@ function WatchesComponent(){
     return(
         <>
         <div className='containerGeneralWatches'>
-        <section className="back">
-             <a><img src={ImagesWatches.arrow}/><p>See product details</p></a>
-        </section>   
-    
+        <div className='containerArrow'>
+            <section className="back">
+                <a><img src={ImagesWatches.arrow}/><p>See product details</p></a>
+            </section>   
+        </div>
         <section className="watchProducto">
          
             <div className="imagenProducto">
