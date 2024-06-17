@@ -2,26 +2,26 @@ import "./main.css";
 
 //Componente 5
 
-function InfoProduct() {
+function InfoProduct({ currentName, currentPrice, changeProduct }) {
 
     return(
         <>
-        <div class="container">
+        <div classname="container">
             <div className="content_products_descript">
                 <div className="descripcion_producto"> 
-                    <h1>Google Pixel Buds Pro</h1>
+                    <h1>{currentName}</h1>
                     <p className="subtitles_menu">Music & Sound</p>
-                    <h2 id="precio">229 €</h2>
+                    <h2 id="precio">{currentPrice} €</h2>
                     <hr></hr>
                     <p className="subtitles_menu">Choose a color</p>
                     <div className="buttoms-colors">
                         <ul>
-                            <li><button id="buttomblue"></button></li>
-                            <li><button id="buttomlightgray"></button></li>
-                            <li><button id="buttomblack"></button></li>
-                            <li><button id="buttomgray"></button></li>
-                            <li><button id="buttomgreen"></button></li>
-                            <li><button id="buttompink"></button></li>
+                        <li><button id="buttomblueP01" onClick={() => changeProduct('P01')}></button></li>
+                                <li><button id="buttomlightgrayP02" onClick={() => changeProduct('P02')}></button></li>
+                                <li><button id="buttomblackP03" onClick={() => changeProduct('P03')}></button></li>
+                                <li><button id="buttomgrayP04" onClick={() => changeProduct('P04')}></button></li>
+                                <li><button id="buttomgreenP05" onClick={() => changeProduct('P05')}></button></li>
+                                <li><button id="buttompinkP06" onClick={() => changeProduct('P06')}></button></li>
                         </ul>
                     </div>
                 </div>

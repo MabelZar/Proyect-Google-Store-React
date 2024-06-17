@@ -5,7 +5,7 @@ import mainAllImages from "../../utils/images-main.js";
 function InfoBox() {
     return(
         <>
-         <div class="container">
+         <div className="container">
         <div className="content_products_descript">
             <div className="content-box">
                 <label id="monto">229 €</label>
