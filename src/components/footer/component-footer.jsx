@@ -40,6 +40,6 @@ function FooterComponent () {
             </div> 
         </>
     );
-};
+}
 
 export default FooterComponent;
