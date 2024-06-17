@@ -7,6 +7,7 @@ function ButtonLeft() {
 
     return(
         <>
+        <div className="container">
         <div className="imagenes_producto">
             <div className="iconos_earbuds">
                 <ul>
@@ -17,6 +18,7 @@ function ButtonLeft() {
                 </ul>
             </div>
         </div> 
+        </div>
        </>
     )
 };

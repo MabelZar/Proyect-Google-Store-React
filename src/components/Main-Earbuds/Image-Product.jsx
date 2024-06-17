@@ -2,13 +2,13 @@ import "./main.css";
 import mainAllImages from "../../utils/images-main.js";
 //Componente 3
 
-function ImageProduct() {
+function ImageProduct({ currentImage }) {
     return(
         <>
-         <div class="container">
+         <div classname="container">
         <div className="imagenes_producto">
             <div className="imagen_producto">
-                <img src={mainAllImages.earbuds_01_celeste}/>
+                <img src={ currentImage }/>
             </div>
         </div>
         </div>
